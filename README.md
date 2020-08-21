@@ -109,6 +109,7 @@ $ python3 src/Main.py
 ## Result
 
 + Result (Testing Set)
+
     | Data Set | Accuracy  | Training History |
     | :-------: | :--------: | :--------: |
     | data01 | 99.7% | ![result](image/data01_result.png) |

@@ -38,8 +38,8 @@ def getModle(input):
     return Model(inputs=input, outputs=x)
 
 
-xTrainShape = getImageSize('train/data01_train')
-(xTrain, yTrain)= load_data(xTrainPath='train/data01_train', yTrainPath='train/data01_train.csv')
+xTrainShape = getImageSize('data/data01_train')
+(xTrain, yTrain)= load_data(xTrainPath='data/data01_train', yTrainPath='data/data01_train.csv')
 xTrain = xTrain/255.
 yTrain = np_utils.to_categorical(yTrain, num_classes=characterNumber).tolist()
 
